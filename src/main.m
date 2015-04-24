@@ -10,7 +10,7 @@ fprintf('Configuration Complete\n');
 %% Load Data
 
 %loadData % load data from SHP and tiff files
-load('../INPUT/atlantic_data.mat'); % Pre-processed matlab data
+load('../INPUT/test.mat'); % Pre-processed matlab data
 fprintf('Data Loaded Successfully\n');
 
 %% HotspotAnalyzer
