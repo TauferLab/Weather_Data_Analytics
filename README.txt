@@ -8,18 +8,14 @@ periodically for updates.
 
 Climate Data Analysis Framework
 |
-|_Input (contains three .mat inputs, namely atlantic_region.mat, entire_region_data.mat, and pacific_data.mat,
-|         for the framework corresponding to the Matorral region.)
+|_Input (contains one test.mat for testing, which has been extracted from the Matorral region.)
 |_ src (contains the src files for the framework)
 
 *FOLDER DESCRIPTION*
 
-Input -- This folder contains three .mat files that are used as input by the framework. 
+Input -- This folder contains test.mat file used as input by the framework. 
 Using GeoTiff and shapefile, we extracted temperature, precipitation, and solar radiation
-data for the Matorral sub-region of Mexico. Specifically, atlantic_region.mat contains
-climate data for regions closer to atlantic, pacific_data.mat contains climate data
-for regions closer to Pacific, and entire_region_data.mat contains climate data for
-the entire Matorral region. The framework is currently tuned to work with the entire Matorral region.
+data for this Matorral sub-region of Mexico. 
 
 src -- This folder contains a collection of matlab files that make up the framework. A description 
 of its contents is as follows in the next section.
